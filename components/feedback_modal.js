@@ -46,7 +46,6 @@ import {
     Platform,
     KeyboardAvoidingView,
     TouchableWithoutFeedback,
-    ScrollView
 } from 'react-native';
 import { Rating } from 'react-native-ratings';
 
@@ -92,7 +91,6 @@ const FeedbackModal = ({ isVisible, onClose }) => {
                                 startingValue={5}
                                 onFinishRating={handleRatingCompleted}
                             />
-                            {/* Always show feedback input */}
                             <TextInput
                                 style={styles.input}
                                 onChangeText={setFeedback}
@@ -143,7 +141,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#f8f8f8',
     },
     submitArea: {
-        marginTop: 20,
         backgroundColor: '#007bff',
         padding: 10,
         width: '100%',
