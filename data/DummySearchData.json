@@ -1,0 +1,138 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "name": "Electronic Beats Festival",
+        "date": "2024-03-15",
+        "venueId": 101,
+        "tags": ["music", "electronic", "festival", "dance"],
+        "description": "An epic weekend of electronic music featuring the world's top DJs."
+      },
+      {
+        "id": 2,
+        "name": "Jazz Nights Out",
+        "date": "2024-04-20",
+        "venueId": 102,
+        "tags": ["music", "jazz", "live", "bar"],
+        "description": "Smooth jazz evenings at the city's coziest venue."
+      },
+      {
+        "id": 3,
+        "name": "Rock & Roll Hall of Fame",
+        "date": "2024-05-05",
+        "venueId": 103,
+        "tags": ["music", "rock", "museum", "history"],
+        "description": "Celebrate the history of rock and roll at this iconic museum."
+      },
+      {
+        "id": 4,
+        "name": "Indie Film Festival",
+        "date": "2024-06-15",
+        "venueId": 104,
+        "tags": ["film", "festival", "indie", "movies"],
+        "description": "Showcasing the best of independent cinema from around the globe."
+      },
+      {
+        "id": 5,
+        "name": "Local Food Expo",
+        "date": "2024-07-22",
+        "venueId": 105,
+        "tags": ["food", "expo", "local", "tasting"],
+        "description": "A taste of the town with local restaurants, breweries, and bakeries."
+      },
+      {
+        "id": 6,
+        "name": "Tech Innovators Conference",
+        "date": "2024-08-30",
+        "venueId": 106,
+        "tags": ["technology", "conference", "innovation", "networking"],
+        "description": "Where the future of technology meets with presentations from industry leaders."
+      },
+      {
+        "id": 7,
+        "name": "Outdoor Yoga Retreat",
+        "date": "2024-09-10",
+        "venueId": 107,
+        "tags": ["yoga", "retreat", "outdoor", "wellness"],
+        "description": "Rejuvenate your mind and body with yoga in the great outdoors."
+      }
+    ],
+    "venues": [
+      {
+        "id": 101,
+        "name": "The Sound Dome",
+        "location": "New York, NY",
+        "type": "Outdoor",
+        "capacity": 5000
+      },
+      {
+        "id": 102,
+        "name": "Jazz Corner",
+        "location": "Chicago, IL",
+        "type": "Bar",
+        "capacity": 200
+      },
+      {
+        "id": 103,
+        "name": "Rock Museum",
+        "location": "Cleveland, OH",
+        "type": "Museum",
+        "capacity": 1000
+      },
+      {
+        "id": 104,
+        "name": "Cinema Arts Centre",
+        "location": "San Francisco, CA",
+        "type": "Theater",
+        "capacity": 300
+      },
+      {
+        "id": 105,
+        "name": "Taste Town Pavilion",
+        "location": "Austin, TX",
+        "type": "Expo Center",
+        "capacity": 1500
+      },
+      {
+        "id": 106,
+        "name": "Innovation Hub",
+        "location": "Silicon Valley, CA",
+        "type": "Conference Center",
+        "capacity": 2000
+      },
+      {
+        "id": 107,
+        "name": "Peaceful Valley",
+        "location": "Boulder, CO",
+        "type": "Retreat Center",
+        "capacity": 100
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "Alex Johnson",
+        "location": "Boston, MA",
+        "interests": ["music", "festivals", "museums", "technology"]
+      },
+      {
+        "id": 2,
+        "name": "Jamie Lee",
+        "location": "San Francisco, CA",
+        "interests": ["jazz", "wine", "bars", "film"]
+      },
+      {
+        "id": 3,
+        "name": "Sam Rivera",
+        "location": "Austin, TX",
+        "interests": ["food", "local events", "expo", "yoga"]
+      },
+      {
+        "id": 4,
+        "name": "Chris Kim",
+        "location": "Silicon Valley, CA",
+        "interests": ["technology", "networking", "startups"]
+      }
+    ]
+  }
+  
