@@ -29,7 +29,8 @@ const SearchComponent = () => {
     const [selectedTags, setSelectedTags] = useState([]);
 
 
-    // Effect to load tags from searchData on component mount
+    // Generate a list of unique tags for auto-suggestion
+    // from the searchData on component mount
     useEffect(() => {
         const allTags = [];
         searchData.events.forEach(event => {
